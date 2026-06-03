@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pradnya | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Outfit,sans-serif;scroll-behavior:smooth}
+body{background:#090506;color:#fff;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:-1}
+.bg:before,.bg:after{content:'';position:absolute;border-radius:50%;filter:blur(120px)}
+.bg:before{width:600px;height:600px;background:#800020;left:-150px;top:-150px}
+.bg:after{width:500px;height:500px;background:#b03060;right:-150px;bottom:-150px}
+nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);width:92%;max-width:1200px;background:rgba(255,255,255,.08);backdrop-filter:blur(25px);border:1px solid rgba(255,255,255,.15);border-radius:50px;padding:16px 28px;display:flex;justify-content:space-between;align-items:center;z-index:999}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{text-decoration:none;color:#fff}
+section{padding:90px 8%}
+.glass{background:rgba(255,255,255,.07);backdrop-filter:blur(25px);border:1px solid rgba(255,255,255,.15);border-radius:32px;padding:40px;max-width:1200px;margin:auto}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-size:5rem}.hero p{color:#ddd;margin-top:15px}
+.btn{display:inline-block;margin-top:25px;padding:14px 28px;border-radius:40px;background:linear-gradient(135deg,#800020,#c03a67);color:#fff;text-decoration:none}
+h2{text-align:center;font-size:2.6rem;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:24px;padding:25px}
+.comp{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.compimgs{display:flex;flex-direction:column;gap:20px}
+.compimgs img{width:100%;height:240px;object-fit:cover;border-radius:20px;border:1px solid rgba(255,255,255,.15);padding:8px;background:rgba(255,255,255,.05)}
+p{line-height:1.8;color:#d5d5d5}
+footer{text-align:center;padding:30px;color:#aaa}
+@media(max-width:768px){nav ul{display:none}.hero h1{font-size:3rem}.comp{grid-template-columns:1fr}h2{font-size:2rem}}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+
+<nav>
+<b>PL</b>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#competition">Competition</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+<div class="glass">
+<h1>Pradnya Landge</h1>
+<p>Cybersecurity Enthusiast • Cloud Computing Learner </p>
+<a class="btn" href="#projects">View Projects</a>
+</div>
+</section>
+
+<section id="about">
+<div class="glass">
+<h2>About Me</h2>
+<p>I am a BCA student at MIT ADT University passionate about Cybersecurity, Cloud Computing, Linux, Networking and emerging technologies. I enjoy learning through practical projects, technical events and continuous skill development.</p>
+</div>
+</section>
+
+<section id="competition">
+<div class="glass">
+<h2>Competition Participation</h2>
+<div class="comp">
+<div class="compimgs">
+<img src="C:\Users\pradn\Downloads\pradnya cv photo.jpeg" alt="Competition 1">
+<img src="competition2.jpg" alt="Competition 2">
+</div>
+<div>
+<h3>Technical Events & Hackathons</h3>
+<p>I actively participate in technical competitions, hackathons, cybersecurity challenges and innovation events. These experiences help me improve problem solving, teamwork and real-world technical skills.</p>
+<p>Replace the images and text with your actual competition photos and achievements.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="glass">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">Cyber Security</div>
+<div class="card">Cloud Computing</div>
+<div class="card">Linux</div>
+<div class="card">Networking</div>
+</div>
+</div>
+</section>
+
+<section id="education">
+<div class="glass">
+<h2>Education</h2>
+<div class="card">
+<h3>BCA</h3>
+<p>MIT ADT University</p>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="glass">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Portfolio Website</h3><p>Add project details here.</p></div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="glass">
+<h2>Contact</h2>
+<p>Update with your Email, GitHub, LinkedIn and social links.</p>
+</div>
+</section>
+
+<footer>© 2026 Pradnya Landge Portfolio</footer>
+</body>
+</html>
